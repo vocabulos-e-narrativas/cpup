@@ -1,0 +1,6 @@
+publication,id,photo,title,description,start_date,end_date,link
+publication1,1,1.png,Lorem ipsum dolor sit amet 1.,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nihil cupiditate nam, aperiam facere ad quam soluta corporis quidem maxime.",2023-10-01,2023-10-31,https://www.google.com/
+publication2,2,2.png,Lorem ipsum dolor sit amet 2.,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nihil cupiditate nam, aperiam facere ad quam soluta corporis quidem maxime.",2023-10-03,2023-11-01,https://www.google.com/
+publication3,3,3.png,Lorem ipsum dolor sit amet 3.,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nihil cupiditate nam, aperiam facere ad quam soluta corporis quidem maxime.",2023-10-10,2023-10-31,https://www.google.com/
+publication4,4,4.png,Lorem ipsum dolor sit amet 4.,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nihil cupiditate nam, aperiam facere ad quam soluta corporis quidem maxime.",2023-10-04,2023-11-01,https://www.google.com/
+publication5,5,5.png,Lorem ipsum dolor sit amet 5.,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nihil cupiditate nam, aperiam facere ad quam soluta corporis quidem maxime.",2023-10-02,2023-10-31,https://www.google.com/

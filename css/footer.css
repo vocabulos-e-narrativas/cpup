@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+    .w-101 {
+        width: 101% !important;
+    }
+}

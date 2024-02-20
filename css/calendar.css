@@ -1,0 +1,126 @@
+:root {
+    --blue: #243277;
+    --beige: #F5EFE7;
+    --light-gray: #E8E3DD;
+    --gray: #ABA7A1;
+    --white: #FFF;
+    --light-black: #2D2D2D;
+    --purple: #452773;
+    --dark-cian: #155575;
+    --red: #E20613;
+    --blood: #7E2634;
+    --orange: #E84E1B;
+}
+
+.calendar {
+    display: flex;
+    flex-flow: column;
+}
+
+.calendar .days {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.calendar .days .day_name {
+    width: calc(100% / 7);
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.calendar .days .day_name:nth-child(7) {
+    border: none;
+}
+
+.calendar .days .day_num {
+    display: flex;
+    /*flex-flow: column;*/
+    width: calc(100% / 7);
+    padding: 0px 0px 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.calendar .days .day_num span {
+    display: inline-flex;
+    width: 30px;
+    font-size: 20px;
+}
+
+.calendar .days .day_num .event {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 4px;
+    color: var(--blue);
+}
+
+.calendar .days .day_num .event {
+    position: absolute;
+    background-color: var(--blue);
+    height: 3px;
+    width: calc(42% / 7);
+}
+
+.calendar .days .day_num:hover {
+    background-color: var(--gray);
+}
+
+.calendar-date {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-small-word {
+    margin: 0 5px;
+    padding-bottom: 5px;
+}
+
+.calendar-big-number {
+    font-size: 22px;
+}
+
+.calendar-big-slash {
+    color: var(--gray);
+    font-size: 30px;
+}
+
+.calendar-date-place {
+    line-height: 1.2;
+}
+
+.calendar-description {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+
+/* Tooltip text */
+.event .tooltiptext {
+    visibility: hidden;
+    width: auto !important;
+    background-color: var(--light-black);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.event:hover .tooltiptext {
+    visibility: visible;
+}
